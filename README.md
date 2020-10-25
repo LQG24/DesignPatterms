@@ -8,3 +8,9 @@
 
 ##工厂模式:
 #factory_pattern_mode
+
+##抽象工厂模式:
+#abstract_pattern_mode
+
+##建造者模式:
+#builder_pattern_mode
