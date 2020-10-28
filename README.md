@@ -14,3 +14,6 @@
 
 ##建造者模式:
 #builder_pattern_mode
+
+##适配器模式:
+#adater_pattern_mode
