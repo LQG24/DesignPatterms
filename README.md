@@ -17,3 +17,6 @@
 
 ##适配器模式:
 #adater_pattern_mode
+
+##策略模式
+#strategy_pattern_mode
