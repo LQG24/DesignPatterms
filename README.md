@@ -17,3 +17,9 @@
 
 ##适配器模式:
 #adater_pattern_mode
+
+##装饰器模式
+#decorator_pattern_mode
+
+##外观模式（门面模式）
+#facade_pattern_mode
