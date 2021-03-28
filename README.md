@@ -23,3 +23,6 @@
 
 ##外观模式（门面模式）
 #facade_pattern_mode
+
+##策略模式
+#strategy_pattern_mode

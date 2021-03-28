@@ -1,5 +1,8 @@
 package com.example.designpatterns.observer_mode;
 
+/**
+ * 具体观察者（ConcrereObserver）
+* */
 public class GirlFriend implements Observer {
     private String mGirlName;
 
