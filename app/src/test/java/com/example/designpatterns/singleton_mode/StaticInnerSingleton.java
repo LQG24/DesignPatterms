@@ -12,9 +12,9 @@ public class StaticInnerSingleton {
     }
 
     public static StaticInnerSingleton getInstance(){
-      return SingletonHoler.staticInnerSingleton;
+      return SingletonHolder.staticInnerSingleton;
     }
-    private static class SingletonHoler{
+    private static class SingletonHolder{
         private static final StaticInnerSingleton staticInnerSingleton = new StaticInnerSingleton();
     }
 }

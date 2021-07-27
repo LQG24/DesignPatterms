@@ -1,5 +1,7 @@
 package com.example.designpatterns.strategy_pattern_mode;
 
+import org.junit.Test;
+
 /**
  * 在策略模式（Strategy Pattern）中，一个类的行为或其算法可以在运行时更改。这种类型的设计模式属于行为型模式。
  *
@@ -20,15 +22,26 @@ package com.example.designpatterns.strategy_pattern_mode;
  *
 * */
 public class StrategyPatternDemo {
-    public static void main(String[] args) {
-        Context context = new Context(new OperationAdd());
+    @Test
+    public  void main() {
+//        String operate = "";
+//        if(operate.equals("+")){
+//
+//        }else if(operate.equals("-")){
+//
+//        }else if(operate.equals("*")){
+//
+//        }
+
+
+        Context context = new Context("+");
         System.out.println("10+5=" + context.executeStrategy(10, 5));
 
-        context = new Context(new OperationSubstract());
+        context = new Context("-");
         System.out.println("10-5=" + context.executeStrategy(10, 5));
 
 
-        context = new Context(new OperationMultiply());
+        context = new Context("*");
         System.out.println("10*5=" + context.executeStrategy(10, 5));
     }
 }
