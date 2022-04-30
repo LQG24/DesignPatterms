@@ -26,3 +26,6 @@
 
 ##策略模式
 #strategy_pattern_mode
+
+##责任链模式
+#chain_of_responsibility_pattern_mode
