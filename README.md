@@ -29,3 +29,6 @@
 
 ##责任链模式
 #chain_of_responsibility_pattern_mode
+
+##动态代理
+#dynamic_proxy_mode
