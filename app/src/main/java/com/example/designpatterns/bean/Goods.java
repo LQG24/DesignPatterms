@@ -5,25 +5,25 @@ package com.example.designpatterns.bean;
  */
 public class Goods {
 
-	public int icon;
+	public String icon;
 	public String like;
 	public String style;
 
 	public Goods() {
 	}
 
-	public Goods(int icon, String like, String style) {
+	public Goods(String icon, String like, String style) {
 		super();
 		this.icon = icon;
 		this.like = like;
 		this.style = style;
 	}
 
-	public int getIcon() {
+	public String getIcon() {
 		return icon;
 	}
 
-	public void setIcon(int icon) {
+	public void setIcon(String icon) {
 		this.icon = icon;
 	}
 

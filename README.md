@@ -32,3 +32,8 @@
 
 ##动态代理
 #dynamic_proxy_mode
+
+
+#app模块下
+##图片策略，支持Glide、Picasso等图片框架切换
+### 参考链接：https://juejin.cn/post/6844903565773766664、https://www.jianshu.com/p/09f2689499d0
